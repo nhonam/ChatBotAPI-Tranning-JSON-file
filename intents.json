@@ -1,0 +1,98 @@
+{
+  "intents": [
+    {
+      "tag": "xin chào",
+      "patterns": [
+        "chào bạn",
+        "chào",
+        "Bạn cần giúp đỡ gì không",
+        "Bạn cần gì ở tôi?",
+        "Xin chào bạn",
+        "Chúc bạn một ngày tốt lành"
+      ],
+      "responses": [
+        "chào bạn :-)",
+        "xin chào, Bạn cần giúp đỡ gì không ?",
+        "Tôi có thể giúp gì cho bạn?",
+        "Tôi có thể giúp gì không?"
+      ]
+    },
+
+    {
+      "tag": "tạm biệt",
+      "patterns": ["chào tạm biệt", "Cảm ơn", "cảm ơn bạn"],
+      "responses": [
+        "Hi vọng sẽ sớm gặp lại bạn",
+        "Chúc bạn có một ngày tốt lành",
+        "Chào bạn"
+      ]
+    },
+    {
+      "tag": "Cảm ơn",
+      "patterns": ["Cảm ơn", "giúp đỡ", "cảm ơn bạn", "cảm ơn rất nhiều"],
+      "responses": ["Rất vui vì được giúp bạn!", "Cảm ơn bạn đã tin tưởng", "Rất hân hạnh được phục vụ"]
+    },
+    {
+      "tag": "Giày bóng đá",
+      "patterns": [
+        "Tôi muốn mua giày ?",
+        "Có loại giày nào ?",
+        "Giày đá bóng"
+      ],
+      "responses": [
+        "Chúng tôi có giày đá bóng",
+        "Giày thể thao",
+        "bạn muốn đi size bao nhiêu"
+      ]
+    },
+    {
+      "tag": "Tạ",
+      "patterns": [
+        "Tôi muốn mua tạ",
+        "Tạ mấy kg",
+        "Bao nhiêu loại tạ",
+        "Tạ tập tay"
+      ],
+      "responses": [
+        "Chúng tôi có tạ tập tay",
+        "Chúng tôi có tạ tập chân"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+        {
+      "tag": "buy",
+      "patterns": [
+        "i want to buy clothes",
+        "do you have clothes",
+        "Do you know suit?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
